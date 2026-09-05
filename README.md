@@ -1,4 +1,4 @@
-## demos-lua
+# demos-lua
 
 version: 0.0.1
 
@@ -7,9 +7,6 @@ description: Demos for the lua language
 website: https://veltzer.github.io/demos-lua
 
 ## Build
-
-
-
 
 ## Contact
 

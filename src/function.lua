@@ -1,7 +1,7 @@
 #!/usr/bin/lua
 
 -- defines a factorial function
-function fact(n)
+local function fact(n)
   if n == 0 then
     return 1
   else
@@ -10,5 +10,5 @@ function fact(n)
 end
 
 io.write("enter a number: ")
-a = io.read("*number")        -- read a number
+local a = io.read("*number")        -- read a number
 print(fact(a))
