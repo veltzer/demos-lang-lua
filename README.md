@@ -1,4 +1,4 @@
-# demos-lua
+# demos-lang-lua
 
 version: 0.0.1
 
