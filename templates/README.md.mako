@@ -32,7 +32,7 @@ ${config.project.description_long}
 
 ${"##"} Contact
 
-chat with me at [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
+[mailto](mailto:mark.veltzer@gmail.com)
 
 % if os.path.isfile("snippets/main.md.mako"):
 <%include file="../snippets/main.md.mako" />
