@@ -4,6 +4,22 @@
 # src_dirs entries name directories; "." (the whole tree) is a config error
 reject_dot_src_dirs = true
 
+# ─── analyzers ───────────────────────────────────────────────────────────────
+
+[analyzer.tera]
+
+# ─── templating ──────────────────────────────────────────────────────────────
+
+# Convention: tera configs are Lua (config/*.lua). Every dep_auto entry
+# listed here must exist: rsconstruct rejects a missing one at config load.
+[processor.tera]
+dep_auto = [
+	"config/project.lua",
+	"config/personal.lua",
+	"config/version.lua",
+]
+src_dirs = ["tera.templates"]
+
 [processor.taplo]
 src_files = [".rumdl.toml", "rsconstruct.toml"]
 
@@ -19,4 +35,4 @@ src_files = ["README.md"]
 # ─── lua ─────────────────────────────────────────────────────────────────────
 
 [processor.luacheck]
-src_dirs = ["src"]
+src_dirs = ["config", "src"]

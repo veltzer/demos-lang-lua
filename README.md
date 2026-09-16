@@ -1,15 +1,28 @@
-# demos-lang-lua
+<!-- This file is generated. Do not edit it by hand: your changes will be
+     lost on the next build. Edit the template it is rendered from, or the
+     values that template reads, and build again. -->
+# *demos-lang-lua* project by Mark Veltzer
+
+description: Demos for the Lua programming language
+
+project website: https://veltzer.github.io/demos-lang-lua
+
+author: Mark Veltzer
 
 version: 0.0.1
 
-description: Demos for the lua language
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
-website: https://github.com/veltzer/demos-lang-lua
+## github
 
-## Build
+![License](https://img.shields.io/github/license/veltzer/demos-lang-lua)
 
-## Contact
+## build
 
-[mailto](mailto:mark.veltzer@gmail.com)
+![build](https://github.com/veltzer/demos-lang-lua/workflows/build/badge.svg)
 
-Mark Veltzer, Copyright © 2024, 2025
+## contact me
+
+[mark.veltzer@gmail.com](mailto:mark.veltzer@gmail.com)
+
+Mark Veltzer, Copyright © 2024, 2025, 2026
