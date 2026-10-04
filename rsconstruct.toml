@@ -12,7 +12,7 @@ reject_dot_src_dirs = true
 
 # Convention: tera configs are Lua (config/*.lua). Every dep_auto entry
 # listed here must exist: rsconstruct rejects a missing one at config load.
-[processor.tera]
+[processor.generator.tera]
 dep_auto = [
 	"config/project.lua",
 	"config/personal.lua",
@@ -20,19 +20,19 @@ dep_auto = [
 ]
 src_dirs = ["tera.templates"]
 
-[processor.taplo]
+[processor.checker.taplo]
 src_files = [".rumdl.toml", "rsconstruct.toml"]
 
 # lint the GitHub Actions workflow files with actionlint
-[processor.actionlint]
+[processor.checker.actionlint]
 src_dirs = [".github/workflows"]
 
 # ─── markdown ────────────────────────────────────────────────────────────────
 
-[processor.rumdl]
+[processor.checker.rumdl]
 src_files = ["README.md"]
 
 # ─── lua ─────────────────────────────────────────────────────────────────────
 
-[processor.luacheck]
+[processor.checker.luacheck]
 src_dirs = ["config", "src"]
