@@ -5,7 +5,7 @@
 
 description: Demos for the Lua programming language
 
-project website: https://veltzer.github.io/demos-lang-lua
+project website: <https://veltzer.github.io/demos-lang-lua>
 
 author: Mark Veltzer
 
